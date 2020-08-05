@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html><head><meta name="viewport"content="width=device-width,initial-scale=1">
+<style type="text/css">
+div{width:100px;height:100px;background:red;color:#173459;transition-duration:2s;color:white;}
+#p:hover{transform:rotateY(140deg);}
+#q:hover{transform:rotateX(140deg);}
+#t:hover{transform:rotate(-90deg);}
+#u:hover{transform:scale(3);}
+p:hover{height:200px;}
+
+@keyframes myAnimation{from{background:rgb(25 5 66);;left:0px;}
+to{background:pink;left:200px;}
+}
+div{animation:myAnimation 2s linear 1s  infinite alternate;
+width:100px\height:100px;background:yellow;
+position:relative;
+}
+0%{background-color:gold;top:0px;left:0px;}
+25%{background-color:blue;top:200px;left:200px;}
+50%{background-color:gold;top:0px;left:200px;}
+70%{background-color:green;top:200px;left:0px;}
+100%{background-color:gold;top:0px;left:0px;}
+
+
+</style>
+<body style="background-image:linear-gradient(blue,white")width:400px;height:300px;>
+<div id="p"style="box-shadow:-10px -5px 5px 3px #173459;">&nbsp rotate me </div><br />
+<div id="q">&nbsp rotate me </div><br />
+<div id="t">&nbsp @</div><br />
+<div id="u"style="box-shadow:-10px -5px 5px 3px #173459;">&nbsp #</div><br />
+
+<button id="u"onclick="window.location.href='m.html';"style="font-family:san-serif;padding:15px 30px 90px; 90px;
+border:none;font-size:28px;color:rgb(25 5 66);background:rgb(0 255 255);box-shadow:-10px -5px 5px 3px #173459;
+border-radius:  50px 50px 20px;text-align:center;margin-left:780px;:hovertransform:scale(5);outline:none;">CONTINUE</button><!--buton as a link-->
+</body>
+</html>
